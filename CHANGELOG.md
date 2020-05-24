@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [9.1.7](https://github.com/wopian/kitsu/compare/v9.1.6...v9.1.7) (2020-05-24)
+
+
+### New Features
+
+* **ie 11:** add ie 11 support ([f5cdd97](https://github.com/wopian/kitsu/commit/f5cdd97))
+
+
+
+
+
 ## [9.1.6](https://github.com/wopian/kitsu/compare/v9.1.5...v9.1.6) (2020-05-21)
 
 
