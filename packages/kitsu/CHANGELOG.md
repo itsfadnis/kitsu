@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [9.1.9](https://github.com/wopian/kitsu/tree/master/packages/kitsu/compare/v9.1.8...v9.1.9) (2020-05-24)
+
+
+### Bug Fixes
+
+* **build:** replace core-js with babel runtime ([76d4439](https://github.com/wopian/kitsu/tree/master/packages/kitsu/commit/76d4439))
+
+
+
+
+
 ## [9.1.8](https://github.com/wopian/kitsu/tree/master/packages/kitsu/compare/v9.1.7...v9.1.8) (2020-05-24)
 
 
