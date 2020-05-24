@@ -41,7 +41,9 @@ const babelMain = {
         browsers: mainBrowsers,
         node: minNode
       },
-      modules: false
+      modules: false,
+      useBuiltIns: 'usage',
+      corejs: 3
     } ]
   ]
 }
