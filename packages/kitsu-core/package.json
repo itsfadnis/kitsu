@@ -58,6 +58,6 @@
     "@size-limit/preset-small-lib": "~4.5.0"
   },
   "dependencies": {
-    "core-js": "3"
+    "@babel/runtime": "^7.9.6"
   }
 }

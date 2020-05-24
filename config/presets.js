@@ -19,7 +19,7 @@ const sharedConfig = {
   configFile: false,
   comments: false,
   exclude,
-  babelHelpers: 'bundled'
+  babelHelpers: 'runtime'
 }
 
 const babelTest = {
@@ -35,15 +35,16 @@ const babelTest = {
 
 const babelMain = {
   ...sharedConfig,
+  plugins: [
+    '@babel/plugin-transform-runtime'
+  ],
   presets: [
     [ '@babel/env', {
       targets: {
         browsers: mainBrowsers,
         node: minNode
       },
-      modules: false,
-      useBuiltIns: 'usage',
-      corejs: 3
+      modules: false
     } ]
   ]
 }
