@@ -1,7 +1,8 @@
 const minNode = 10
 const mainBrowsers = [
   'last 2 years',
-  'not < 0.05%'
+  'not < 0.05%',
+  'ie >= 11'
 ]
 
 const sharedExternals = [
